@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: install dependencies [pip]
+      - name: install dependenccies [pip]
         run: |
           python -m pip install pip --upgrade pip
           pip install flake8
